@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  grid-template:
+    [header-start] "header header" 1fr[header-end]
+    [content-start] "content nav" 8fr[content-end]
+    [footer-start] "footer footer" 2fr[footer-end]/6fr 1fr;
+
+  gap: 10px;
+  height: 200vh;
+}
+
+.header {
+  background-color: darkmagenta;
+  grid-area: header;
+}
+.content {
+  background-color: chocolate;
+  grid-area: content;
+}
+.nav {
+  background-color: crimson;
+  grid-area: nav;
+}
+.footer {
+  background-color: cornflowerblue;
+  grid-area: footer;
+}
