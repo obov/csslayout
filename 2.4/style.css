@@ -7,18 +7,18 @@
 
 .header {
   background-color: darkmagenta;
-  grid-column: 1/5;
+  grid-column: 1/-1;
 }
 .content {
   background-color: chocolate;
-  grid-column: 1/4;
-  grid-row: 2/4;
+  grid-column: 1/-2;
+  grid-row: 2/-2;
 }
 .nav {
   background-color: crimson;
-  grid-row: 2/4;
+  grid-row: 2/-1;
 }
 .footer {
   background-color: cornflowerblue;
-  grid-column: 1/5;
+  grid-column: 1/-1;
 }
