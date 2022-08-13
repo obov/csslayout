@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.header {
+  background-color: darkmagenta;
+}
+.content {
+  background-color: chocolate;
+}
+.nav {
+  background-color: crimson;
+}
+.footer {
+  background-color: cornflowerblue;
+}
