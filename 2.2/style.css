@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: 110px repeat(2, 170px) 150px;
+  grid-template-areas:
+    "header header header header" "content content content nav" "content content content nav"
+    "footer footer footer footer";
+}
+
+.header {
+  background-color: darkmagenta;
+  grid-area: header;
+}
+.content {
+  background-color: chocolate;
+  grid-area: content;
+}
+.nav {
+  background-color: crimson;
+  grid-area: nav;
+}
+.footer {
+  background-color: cornflowerblue;
+  grid-area: footer;
+}
