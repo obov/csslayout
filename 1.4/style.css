@@ -1,5 +1,6 @@
-.wrapper {
-  height: 200vh;
+.father {
+  font-size: 30px;
+  height: 80vh;
   display: flex;
   /* Main Axis */
   justify-content: space-around;
@@ -32,9 +33,17 @@
   /* align-items: initial; */
   /* align-items: unset; */
 }
-.box {
+.child {
   width: 100px;
-  height: 100px;
+  /* height: 100px; */
   background: peru;
   color: white;
+}
+
+.child:nth-child(2) {
+  order: 1;
+  align-self: stretch;
+}
+.child:nth-child(3) {
+  align-self: flex-end;
 }
