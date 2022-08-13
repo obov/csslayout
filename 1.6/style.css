@@ -5,18 +5,9 @@
   display: flex;
   justify-content: space-around;
   align-content: center;
-  /* align-content: flex-end; */
-  /* align-content: flex-start; */
-  /* align-content: space-around; */
-  /* align-content: space-between; */
-  /* align-content: stretch; */
-  align-items: center;
-  flex-wrap: wrap;
-  /* flex-wrap: nowrap; */
-  /* flex-wrap: wrap-reverse; */
 }
 .child {
-  width: 150px;
+  width: 250px;
   height: 100px;
   background: peru;
   color: white;
@@ -26,6 +17,9 @@
 }
 
 .child:nth-child(2) {
+  background: blueviolet;
+  flex-grow: 0.1;
 }
 .child:nth-child(3) {
+  flex-shrink: 2;
 }
